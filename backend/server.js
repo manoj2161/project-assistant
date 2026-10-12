@@ -4,7 +4,7 @@ import "dotenv/config";
 import chatRouter from "./src/routes/chatRoute.js";
 const app = express();
 app.use(express.json());
-app.usr(cors());
+app.use(cors());
 const port = process.env.PORT;
 const appName = process.env.APP_NAME;
 app.use("/api", chatRouter);
