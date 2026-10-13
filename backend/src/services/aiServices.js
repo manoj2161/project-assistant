@@ -20,7 +20,7 @@ export const generateResponse = async (project, message) => {
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
       const response = await ai.models.generateContent({
-        model: "gemini-3.8-flash",
+        model: "gemini-3.5-flash-lite",
         contents: message,
         config: {
           systemInstruction: `
