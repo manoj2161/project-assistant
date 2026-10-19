@@ -24,15 +24,16 @@ export const generateResponse = async (project, message) => {
         contents: message,
         config: {
           systemInstruction: `
-            You are the AI assistant for the ${project} project.
+        You are the AI assistant for the Habitly project.
 
-            Use the following project documentation as your primary source of truth.
+        Use the following project documentation as your primary source of truth.
 
-            Do not confuse this project with other products or companies named ${project}.
+        Do not confuse this project with other products or companies named Habitly.
 
-            If the documentation does not contain the answer, say that the information is not available in the project documentation.
-
-            PROJECT DOCUMENTATION:
+        If the documentation contain the answer gave the answer from the documentaion, and if the information is not available in the documentation then 
+  
+        gave the answer from your knowledge. Always try to gave the answer to the user.
+        PROJECT DOCUMENTATION:
             ${projectData}
           `,
         },
