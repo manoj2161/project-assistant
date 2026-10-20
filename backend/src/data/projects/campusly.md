@@ -9,9 +9,7 @@ College Event Registration Portal (Campusly)
 Full-stack college event registration web application.
 
 ## Project Purpose
-
 The College Event Registration Portal is designed to simplify and digitize the management of college events. It provides a centralized platform where students can discover and register for events, organizers can submit and manage event proposals, and administrators can oversee event approvals and registrations.
-
 The application reduces dependence on manual registration processes and provides a structured interface for managing college event activities.
 
 ## Technology Stack
